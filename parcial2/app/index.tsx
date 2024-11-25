@@ -98,7 +98,7 @@ const Index = () => {
                   params: { id: team.id },
                 }}
               >
-                <Text style={{ fontWeight: "bold" }}>{team.name} - {team.description}</Text>
+                <Text style={{ fontWeight: "bold" }}>{team.name} - {team.description} - {team.points}</Text>
               </Link>
             </View>
           );
